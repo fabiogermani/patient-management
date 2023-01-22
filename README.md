@@ -1,29 +1,33 @@
-# Desafio Cadastro de Pacientes v2
+# Patient Management
 
 ## Getting Started
 
 ![Alt Homepage](/src/assets/interface.png)
 
-Instale as Dependências
+Install all dependencies
 
 ```bash
 npm i
 # or
 yarn
+# or
+pnpm i
 ```
 
-Execute o servidor de desenvolvimento
+Run development server
 
 ```bash
 npm run dev
 # or
 yarn dev
+# or
+pnpm dev
 ```
 
-Execute o json-server
+Run json-server
 
 ```bash
 npx json-server -p 3001 --watch db.json
 ```
 
-Abra [http://localhost:3000](http://localhost:3000) com seu browser para ver o resultado
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result
