@@ -1,6 +1,6 @@
 import { styled } from '../../styles'
 
-export const Header = styled('header', {
+export const HeaderContainer = styled('header', {
   display: 'flex',
   flexDirection: 'column',
   gap: '$8',

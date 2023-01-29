@@ -1,11 +1,17 @@
 import { Plus, CloudArrowUp } from 'phosphor-react'
 import * as Dialog from '@radix-ui/react-dialog'
-import { AddButton, ImportButton, List, TopContainer } from './styles'
+import {
+  AddButton,
+  HeaderContainer,
+  ImportButton,
+  List,
+  TopContainer,
+} from './styles'
 import { AddOrEditPatientModal } from '../AddOrEditPatientModal'
 
 export function Header() {
   return (
-    <header>
+    <HeaderContainer>
       <TopContainer>
         <h1>Pacientes</h1>
         <div>
@@ -31,6 +37,6 @@ export function Header() {
         <li>Estatísticas</li>
         <li>Performance</li>
       </List>
-    </header>
+    </HeaderContainer>
   )
 }
